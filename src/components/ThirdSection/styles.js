@@ -6,9 +6,14 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   background-color: #000;
   padding: 50px 0px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 `;
 
 export const ImgContainer = styled.div`

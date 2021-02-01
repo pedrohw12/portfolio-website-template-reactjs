@@ -25,10 +25,21 @@ export const InfoArea = styled.div`
 
 export const LetsTalk = styled.h1`
   font-weight: bold;
+  font-size: 21px;
+
+  @media (min-width: 1024px) {
+    font-size: 32px;
+  }
 `;
 
 export const Explanation = styled.h2`
   color: #999;
+
+  font-size: 17px;
+
+  @media (min-width: 1024px) {
+    font-size: 24px;
+  }
 `;
 
 export const ButtonArea = styled.div``;

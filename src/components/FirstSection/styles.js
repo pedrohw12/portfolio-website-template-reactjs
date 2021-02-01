@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import Me from '../../assets/me.png';
+import Me from "../../assets/me.png";
 
 export const Container = styled.div`
   background-color: #000;
-  background-image: url('assets/me.png');
+  
 `;
 
 export const Content = styled.div`
@@ -12,8 +12,10 @@ export const Content = styled.div`
   align-items: center;
   background-color: #000;
   padding-top: 50px;
-  background-image: url('assets/me.png');
-
+  background-image: url("assets/me.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left; 
 `;
 
 export const Title = styled.h1`
@@ -38,9 +40,12 @@ export const Explanation = styled.div`
 
 export const CardsArea = styled.div`
   display: grid;
-  grid-column-gap: 173px;
 
   @media (min-width: 768px) {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (min-width: 1024px) {
+    grid-column-gap: 173px;
   }
 `;
