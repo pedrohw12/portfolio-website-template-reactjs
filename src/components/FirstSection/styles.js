@@ -1,14 +1,16 @@
 import styled from "styled-components";
+import Banner from '../../assets/banner-portfolio.jpg';
 
 export const Container = styled.div`
-  background-color: #000;
+  background-image: url(${Banner});
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 `;
 
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #000;
   padding-top: 50px;
 `;
 
