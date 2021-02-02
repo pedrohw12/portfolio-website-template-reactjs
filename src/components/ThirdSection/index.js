@@ -18,7 +18,6 @@ const ThirdSection = () => {
   return (
     <Container>
       <Content className="container-wrap">
-
         <ImgContainer>
           <img src={Me} alt="owner" />
         </ImgContainer>
@@ -40,7 +39,6 @@ const ThirdSection = () => {
           <MyName>Pedro Wanderley</MyName>
           <Info>Estratégias de marketing digital</Info>
         </InfoArea>
-        
       </Content>
     </Container>
   );

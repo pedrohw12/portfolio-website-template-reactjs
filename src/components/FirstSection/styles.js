@@ -3,7 +3,6 @@ import Me from "../../assets/me.png";
 
 export const Container = styled.div`
   background-color: #000;
-  
 `;
 
 export const Content = styled.div`
@@ -12,10 +11,6 @@ export const Content = styled.div`
   align-items: center;
   background-color: #000;
   padding-top: 50px;
-  background-image: url("assets/me.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left; 
 `;
 
 export const Title = styled.h1`
