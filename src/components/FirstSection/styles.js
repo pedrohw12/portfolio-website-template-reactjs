@@ -4,7 +4,7 @@ import Banner from '../../assets/banner-portfolio.jpg';
 export const Container = styled.div`
   background-image: url(${Banner});
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 `;
 
 export const Content = styled.div`
