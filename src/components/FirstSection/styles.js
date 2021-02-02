@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Me from "../../assets/me.png";
 
 export const Container = styled.div`
   background-color: #000;

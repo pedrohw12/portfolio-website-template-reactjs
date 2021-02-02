@@ -13,15 +13,24 @@ const Footer = () => (
     <Content className="container-wrap">
       <span>Pedro Wanderley @ 2021</span>
       <SocialMediaArea>
-        <a href="https://www.instagram.com/pedrowand/" target="_blank">
+        <a
+          href="https://www.instagram.com/pedrowand/"
+          target="_blank"
+          ref="noreferrer"
+        >
           <img src={Insta} alt="instagram-logo" />
         </a>
-        <a href="https://www.facebook.com/pedro.wanderley.3" target="_blank">
+        <a
+          href="https://www.facebook.com/pedro.wanderley.3"
+          target="_blank"
+          ref="noreferrer"
+        >
           <img src={Face} alt="face-logo" />
         </a>
         <a
           href="https://www.youtube.com/channel/UCAEa2d8qdFbluis_DwATAKw"
           target="_blank"
+          ref="noreferrer"
         >
           <img src={Youtube} alt="youtube-logo" />
         </a>
