@@ -17,8 +17,8 @@ export const MenuListItemAnchor = styled.a`
   border-bottom: ${(props) => `3px solid ${props.borderColor}`};
   color: ${(props) => props.color || "#e9e9e9"};
 
-  &:hover {
+  /* &:hover {
     border-bottom: 3px solid #f1b416;
     color: #f1b416;
-  }
+  } */
 `;
