@@ -1,9 +1,9 @@
 import React from "react";
 
-// Images
-import Insta from "../../assets/insta.png";
-import Face from "../../assets/face.png";
-import Youtube from "../../assets/youtube.png";
+// Icons
+import InstagramIcon from "@material-ui/icons/Instagram";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import YouTubeIcon from "@material-ui/icons/YouTube";
 
 // Styles
 import { Container, Content, SocialMediaArea } from "./styles";
@@ -14,13 +14,13 @@ const Footer = () => (
       <span>Pedro Wanderley @ 2021</span>
       <SocialMediaArea>
         <a href="https://www.instagram.com/pedrowand/">
-          <img src={Insta} alt="instagram-logo" />
+          <InstagramIcon style={{ color: "#fff" }} />
         </a>
         <a href="https://www.facebook.com/pedro.wanderley.3">
-          <img src={Face} alt="face-logo" />
+          <FacebookIcon style={{ color: "#fff" }} />
         </a>
         <a href="https://www.youtube.com/channel/UCAEa2d8qdFbluis_DwATAKw">
-          <img src={Youtube} alt="youtube-logo" />
+          <YouTubeIcon style={{ color: "#fff" }} />
         </a>
       </SocialMediaArea>
       <span>Política de Privacidade</span>

@@ -11,7 +11,7 @@ const SecondSection = () => {
     {
       title: "Websites",
       description:
-        "Construa sites bonitos e simples, que cumprem com o seu principal objetivo - atrair leads e clientes.",
+        "Construo sites bonitos e simples, que cumprem com o seu principal objetivo - atrair leads e clientes.",
     },
     {
       title: "Landing Pages",
@@ -21,7 +21,7 @@ const SecondSection = () => {
     {
       title: "Anúncios",
       description:
-        "Faço a gestão das suas campanhas de anúncios no Google, Youtube, Facebook e Instagram.",
+        "Faço a gestão das suas campanhas de anúncios no Google.",
     },
     {
       title: "Estratégias",

@@ -8,7 +8,7 @@ const Item = ({ title, description }) => {
     <Container>
       <FakeIcon />
       <Title>{title}</Title>
-      <BlueBar />
+      {/* <BlueBar /> */}
       <Description>{description}</Description>
     </Container>
   );

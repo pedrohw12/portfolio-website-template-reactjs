@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 // Image
 import Whats from "../../assets/whats.png";
@@ -17,7 +18,9 @@ const Contact = () => {
   return (
     <Container className="container-wrap">
       <InfoArea>
-        <LetsTalk>Bora bater um papo? Me conte o que precisa.</LetsTalk>
+        <ScrollableAnchor id={"contato"}>
+          <LetsTalk>Bora bater um papo? Me conte o que precisa.</LetsTalk>
+        </ScrollableAnchor>
         <Explanation>
           Clique no botão e vamos conversar diretamente no whatsapp
         </Explanation>
