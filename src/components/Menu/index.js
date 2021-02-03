@@ -25,7 +25,6 @@ const Menu = () => {
           <MenuListItemAnchor
             href="/#contato"
             borderColor={location === "/contato" ? "#F1B416" : "#000"}
-            color={location === "/contato" ? "#F1B416" : "#fff"}
           >
             Contato
           </MenuListItemAnchor>
@@ -34,7 +33,6 @@ const Menu = () => {
           <MenuListItemAnchor
             href="/#sobre"
             borderColor={location === "/sobre" ? "#F1B416" : "#000"}
-            color={location === "/sobre" ? "#F1B416" : "#fff"}
           >
             Sobre
           </MenuListItemAnchor>
