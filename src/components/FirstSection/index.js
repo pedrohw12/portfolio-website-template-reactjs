@@ -16,11 +16,11 @@ const FirstSection = () => {
     {
       title: "Encante",
       description:
-        "A melhor propaganda é aquela que o seu cliente emplora para receber.",
+        "A melhor propaganda é aquela que o seu cliente implora para receber.",
     },
     {
       title: "Venda",
-      description: "Faça eles abrirem suas carteiras todos os dias.",
+      description: "Venda todos os dias do ano.",
     },
   ];
 
@@ -31,7 +31,7 @@ const FirstSection = () => {
         <Explanation>
           Eu posso te ajudar fazendo a internet trabalhar 24 horas para o seu
           negócio. Parece mágica! Mas é apenas utilizar a melhor ferramenta do
-          mundo para impactar pessoas e fazê-las colocar dinheiro no seu bolso.
+          mundo para impactar pessoas e fazê-las entender o valor do seu negócio.
         </Explanation>
         <CardsArea>
           {itens.map((item, key) => (
