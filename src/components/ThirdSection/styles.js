@@ -19,6 +19,7 @@ export const Content = styled.div`
 export const ImgContainer = styled.div`
   width: 300px;
   height: 300px;
+  align-self: center;
 
   img {
     width: 100%;

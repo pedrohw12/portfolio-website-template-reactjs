@@ -1,10 +1,16 @@
 import styled from "styled-components";
 import Banner from '../../assets/banner-portfolio.jpg';
+import BannerVertical from '../../assets/banner-portfolio.png';
 
 export const Container = styled.div`
-  background-image: url(${Banner});
+  background-image: url(${BannerVertical});
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-position: center;
+  background-color: #000;
+
+  @media (min-width: 768px) {
+  background-image: url(${Banner});
+  }
 `;
 
 export const Content = styled.div`
