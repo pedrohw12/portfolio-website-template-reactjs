@@ -1,14 +1,14 @@
 import React from "react";
 
 // Styles
-import { Container, FakeIcon, Title, BlueBar, Description } from "./styles";
+import { Container, FakeIcon, Title, Description } from "./styles";
 
 const Item = ({ title, description }) => {
   return (
     <Container>
       <FakeIcon />
       <Title>{title}</Title>
-      {/* <BlueBar /> */}
+      {/* <BlueBar /> - Importar dos styles */}
       <Description>{description}</Description>
     </Container>
   );
