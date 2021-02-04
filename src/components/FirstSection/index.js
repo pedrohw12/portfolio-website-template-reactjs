@@ -3,7 +3,7 @@ import React from "react";
 // import Prismic from "prismic-javascript";
 
 // Components
-import Item from "./components/Item";
+import Item from "./components/Item"; 
 
 // Styles
 import { Container, Content, Title, Explanation, CardsArea } from "./styles";
