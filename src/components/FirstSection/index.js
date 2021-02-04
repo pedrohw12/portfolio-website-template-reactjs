@@ -1,7 +1,7 @@
 import React from "react";
 
 // Components
-import Item from "./components/Item";
+import Item from "./components/Item"; 
 
 // Styles
 import { Container, Content, Title, Explanation, CardsArea } from "./styles";

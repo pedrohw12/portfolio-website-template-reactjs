@@ -9,8 +9,10 @@ export const MenuListItem = styled.li`
 `;
 
 export const MenuListItemAnchor = styled.a`
+  display: flex;
+  align-items: center;
   font-weight: bold;
-  line-height: 40px;
+  line-height: 40px; 
   padding-bottom: 15px;
   margin-right: 1rem;
   text-decoration: none;
