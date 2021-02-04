@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 
+// Icons
+import MenuIcon from "@material-ui/icons/Menu";
+
 // Styles
 import { MenuList, MenuListItem, MenuListItemAnchor } from "./styles";
 
@@ -13,28 +16,9 @@ const Menu = () => {
     <nav className="app-menu">
       <MenuList>
         <MenuListItem>
-          <MenuListItemAnchor
-            href="/"
-            borderColor={location === "/" ? "#F1B416" : "#000"}
-            color={location === "/" ? "#F1B416" : "#fff"}
-          >
-            Home
-          </MenuListItemAnchor>
-        </MenuListItem>
-        <MenuListItem>
-          <MenuListItemAnchor
-            href="/#contato"
-            borderColor={location === "/contato" ? "#F1B416" : "#000"}
-          >
-            Contato
-          </MenuListItemAnchor>
-        </MenuListItem>
-        <MenuListItem>
-          <MenuListItemAnchor
-            href="/#sobre"
-            borderColor={location === "/sobre" ? "#F1B416" : "#000"}
-          >
-            Sobre
+          <MenuListItemAnchor href="/">
+            Menu
+            <MenuIcon color="#fff" style={{ marginLeft: 5 }} />
           </MenuListItemAnchor>
         </MenuListItem>
       </MenuList>

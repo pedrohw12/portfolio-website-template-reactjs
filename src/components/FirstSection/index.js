@@ -1,43 +1,31 @@
 import React from "react";
 
-// Components
-import Item from "./components/Item";
+// Icons
+import ArrowDropDownCircleIcon from "@material-ui/icons/ArrowDropDownCircle";
 
 // Styles
-import { Container, Content, Title, Explanation, CardsArea } from "./styles";
+import { Container, Content, Title, Explanation, BigTitle } from "./styles";
 
 const FirstSection = () => {
-  const itens = [
-    {
-      title: "Atraia",
-      description:
-        "Tenha mais pessoas chegando a seu negócio todos os dias durante o ano.",
-    },
-    {
-      title: "Encante",
-      description:
-        "A melhor propaganda é feita por um cliente satisfeito.",
-    },
-    {
-      title: "Venda",
-      description: "Venda todos os dias do ano.",
-    },
-  ];
-
   return (
     <Container>
       <Content className="container-wrap">
-        <Title>Quer mais clientes?</Title>
+        <Title>Quem somos</Title>
+        <BigTitle>
+          É Necessário Boas
+          <br /> Pessoas Para Fazerem
+          <br /> Bons Trabalhos.
+        </BigTitle>
         <Explanation>
-          Eu posso te ajudar fazendo a internet trabalhar 24 horas para o seu
-          negócio. Parece mágica! Mas é apenas utilizar a melhor ferramenta do
-          mundo, para impactar pessoas e fazê-las entender o valor do seu negócio.
+          At Acquis we feel it's important to attract, develop,and retain top
+          talent. Accordingly, ew have created a 'second family' environtment
+          where each individual has an opportunity and obligation to contribute
+          to our shared success.
         </Explanation>
-        <CardsArea>
-          {itens.map((item, key) => (
-            <Item key={key} title={item.title} description={item.description} />
-          ))}
-        </CardsArea>
+        <ArrowDropDownCircleIcon
+          color="#fff"
+          style={{ color: "#fff", opacity: 0.5 }}
+        />
       </Content>
     </Container>
   );
